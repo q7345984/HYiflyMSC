@@ -1,13 +1,13 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "iflyMSC"
+  spec.name         = "hyiflyMSC"
   spec.version      = "1.1.111"
   spec.summary      = "ghy"
 
   spec.description  = "ghy--"
 
-  spec.homepage     = "https://github.com/q7345984/iflyMSC"
+  spec.homepage     = "https://github.com/q7345984/HYiflyMSC"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   spec.license      = "MIT"
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
-  spec.source       = { :git => "https://github.com/q7345984/iflyMSC.git", :tag => "1.1.111" }
+  spec.source       = { :git => "https://github.com/q7345984/HYiflyMSC.git", :tag => "1.1.111" }
 
 
   spec.source_files  = "iflyMSC.framework/Headers/*.h"
