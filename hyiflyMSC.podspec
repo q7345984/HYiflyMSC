@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "hyiflyMSC"
-  spec.version      = "1.1.111"
+  spec.version      = "1.1.112"
   spec.summary      = "ghy"
 
   spec.description  = "ghy--"
@@ -21,10 +21,10 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
-  spec.source       = { :git => "https://github.com/q7345984/HYiflyMSC.git", :tag => "1.1.111" }
+  spec.source       = { :git => "https://github.com/q7345984/HYiflyMSC.git", :tag => "1.1.112" }
 
-
-  spec.source_files  = "iflyMSC.framework/Headers/*.h"
+  spec.vendored_frameworks = 'iflyMSC.framework'
+  #spec.source_files  = "iflyMSC.framework/Headers/*.h"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
