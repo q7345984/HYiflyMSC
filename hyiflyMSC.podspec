@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "hyiflyMSC"
-  spec.version      = "1.1.112"
+  spec.version      = "1.1.113"
   spec.summary      = "ghy"
 
   spec.description  = "ghy--"
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
-  spec.source       = { :git => "https://github.com/q7345984/HYiflyMSC.git", :tag => "1.1.112" }
+  spec.source       = { :git => "https://github.com/q7345984/HYiflyMSC.git", :tag => "1.1.113" }
   
   spec.vendored_frameworks = 'source/iflyMSC.framework'
   spec.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/hyiflyMSC/**\"" }
