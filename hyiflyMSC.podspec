@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "hyiflyMSC"
-  s.version      = "1.1.114"
+  s.version      = "1.1.115"
   s.summary      = "ghy"
   s.description  = "ghy--"
   s.homepage     = "https://github.com/q7345984/HYiflyMSC"
