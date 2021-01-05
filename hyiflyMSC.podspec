@@ -1,19 +1,19 @@
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
-  spec.name         = "hyiflyMSC"
-  spec.version      = "1.1.113"
-  spec.summary      = "ghy"
-  spec.description  = "ghy--"
-  spec.homepage     = "https://github.com/q7345984/HYiflyMSC"
-  spec.license      = "MIT"
-  spec.author             = { "葛海艳" => "ge.hy@sand.com.cn" }
-  spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "https://github.com/q7345984/HYiflyMSC.git", :tag => spec.version.to_s }
-  spec.vendored_frameworks = '**/*.framework'
-  # spec.frameworks = "AVFoundation", "SystemConfiguration","Foundation","CoreTelephony","AudioToolbox","UIKit","CoreLocation","Contacts","AddressBook","QuartzCore","CoreGraphics"
+  s.name         = "hyiflyMSC"
+  s.version      = "1.1.114"
+  s.summary      = "ghy"
+  s.description  = "ghy--"
+  s.homepage     = "https://github.com/q7345984/HYiflyMSC"
+  s.license      = "MIT"
+  s.author       = { "葛海艳" => "ge.hy@sand.com.cn" }
+  s.platform     = :ios, "9.0"
+  s.source       = { :git => "https://github.com/q7345984/HYiflyMSC.git", :tag => "#{s.version}"}
+  s.source_files = '**/*.framework/Headers/*.h'
+  s.vendored_frameworks = '**/*.framework'
+  s.frameworks = "AVFoundation", "SystemConfiguration","Foundation","CoreTelephony","AudioToolbox","UIKit","CoreLocation","Contacts","AddressBook","QuartzCore","CoreGraphics"
 
-  # spec.libraries = "z", "c++"
-  
+  s.libraries = "z", "c++"
+  s.requires_arc = true
 end
